@@ -49,6 +49,8 @@ gem 'smarter_csv'
 gem 'sidekiq'
 
 gem 'wisper'
+
+gem 'will_paginate'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
