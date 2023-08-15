@@ -1,5 +1,11 @@
 <h1>Movies</h1>
 
+<%= form_tag movies_path, method: :get do %>
+  <%= label_tag :actor_search, "Search by Actor:" %>
+  <%= text_field_tag :actor_search, params[:actor_search] %>
+  <%= submit_tag "Search" %>
+<% end %>
+
 <table>
   <thead>
     <tr>
